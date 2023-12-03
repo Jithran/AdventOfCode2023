@@ -1,14 +1,11 @@
 <?php
 
-ob_start();
-$aFiles = scandir('.');
-foreach ($aFiles as $file) {
-    if (strpos($file, 'day') === 0) {
-        $fileDisplay = ucfirst(preg_replace('/(\d+)/', ' $1', $file));
-        echo '- <a href="' . $file . '/index.php">' . $fileDisplay . '</a><br/>';
-    }
+include 'update_md.php';
+
+$folders = '';
+foreach($challenges as $day => $challenge) {
+    $folders .= '<a href="'.$challenge['folder'].'">'.$challenge['title'].'</a><br/>';
 }
-$folders = ob_get_clean();
 
 // select a random header image from the headers folder
 $aHeaders = scandir('headers');
