@@ -13,12 +13,65 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 1em;
+    margin: 0;
+
+}
+
 .container {
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
     max-width: 1200px;
     width: 100%;
 }
 
 .header {
     width: 100%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    margin-right: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .info{
+    background-color: #666;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.card a {
+    background-color: rgba(0,0,0,0.5);
+    transition-timing-function: ease;
+    transition: 0.2s;
+}
+.card a:hover {
+    background-color: rgba(0,0,0,0.0);
+    transition-timing-function: ease;
+    transition: 0.2s;
+}
+
+.card .challenge_link {
+    margin-top: auto;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid #7F2AD4;
+    padding: 0.5em;
+    background-color: #666;
+    transition-timing-function: ease;
+    transition: 0.2s;
+}
+
+.card .challenge_link:hover {
+    color: #7F2AD4;
 }
