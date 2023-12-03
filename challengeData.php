@@ -14,4 +14,8 @@ $challenges = [
         'title' => 'Day 2: Cube Conundrum',
         'folder' => 'day2',
     ],
+    3 => [
+        'title' => 'Day 3: Gear Ratios',
+        'folder' => 'day3',
+    ],
 ];
