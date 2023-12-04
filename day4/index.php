@@ -2,26 +2,24 @@
 echo '<pre>';
 
 $input = file_get_contents('input.txt');
-
 $aInput = explode("\r\n", $input);
 
-$N = array_fill(0, count($aInput), 0);
-
+$CardCount = array_fill(0, count($aInput), 1);
 $sum = 0;
-foreach($aInput AS $index=> $line) {
 
-    $N[$index] += 1;
-
+foreach ($aInput as $i => $line) {
     $score = getCardsSameNumbers($line);
 
-    if($score > 0) {
+    if ($score > 0) {
         //$sum += pow(2, $score - 1);
-        $sum += 2**($score - 1);
+        $sum += 2 ** ($score - 1);
     }
 
     for ($j = 0; $j < $score; $j++) {
-        if (isset($N[$index + 1 + $j])) {
-            $N[$index + 1 + $j] += $N[$index];
+        // check if the next card exists and we don't go the non-existing cards
+        if (isset($CardCount[$i + 1 + $j])) {
+            // add the current card count to the next cards where we will get a clone from
+            $CardCount[$i + 1 + $j] += $CardCount[$i];
         }
     }
 }
@@ -44,4 +42,4 @@ function getCardsSameNumbers($card): int
 }
 
 echo 'Sum: ' . $sum . '<br/>';
-echo 'Sum Part 2: ' . array_sum($N) . '<br/>';
+echo 'Sum Part 2: ' . array_sum($CardCount) . '<br/>';
