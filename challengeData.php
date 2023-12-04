@@ -19,6 +19,11 @@ $challenges = [
     3 => [
         'title' => 'Day 3: Gear Ratios',
         'folder' => 'day3',
-        'description' => 'find adjacent symbols and calculate the parts and/or gear sums.',
+        'description' => 'Find adjacent symbols and calculate the parts and/or gear sums.',
+    ],
+    4 => [
+        'title' => 'Day 4: Scratchcards',
+        'folder' => 'day4',
+        'description' => 'Help the elves find the winning scratchcards and gain their riches.',
     ],
 ];

@@ -6,6 +6,6 @@ services:
     volumes:
       - .:/var/www/html
     working_dir: /var/www/html
-    command: php -S 0.0.0.0:5555
+    command: php -S 0.0.0.0:5556
     ports:
-      - "5555:5555"
+      - "5556:5556"
