@@ -31,4 +31,9 @@ $challenges = [
         'folder' => 'day5',
         'description' => 'They received a map from seed to location trough a bunch of nodes, we need to help them find what they need trough a maze of matrices.',
     ],
+    6 => [
+        'title' => 'Day 6: Wait For It',
+        'folder' => 'day6',
+        'description' => 'They received a map from seed to location trough a bunch of nodes, we need to help them find what they need trough a maze of matrices.',
+    ],
 ];
