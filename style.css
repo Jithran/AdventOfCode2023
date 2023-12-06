@@ -38,6 +38,8 @@ h2 {
     display: flex;
     flex-flow: column;
     margin-right: 10px;
+    background-color: #666;
+    margin-bottom: 1em;
 }
 
 .card img{
