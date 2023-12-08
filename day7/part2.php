@@ -30,7 +30,7 @@ usort($hands, function ($a, $b) {
 
 $total = 0;
 foreach ($hands as $rank => $play) {
-    //echo $play['hand'] . ' ' . $play['bid'] . PHP_EOL;
+    echo $play['hand'] . ' ' . $play['bid'] . PHP_EOL;
     $total += ($rank + 1) * $play['bid'];
 }
 
