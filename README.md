@@ -14,3 +14,4 @@ This is my repository for the 2023 Advent of Code. I will mainly use PHP, but I 
 - [Day 4: Scratchcards](https://adventofcode.com/2023/day/4)
 - [Day 5: If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)
 - [Day 6: Wait For It](https://adventofcode.com/2023/day/6)
+- [Day 7: Camel Cards](https://adventofcode.com/2023/day/7)
