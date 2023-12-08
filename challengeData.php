@@ -34,6 +34,11 @@ $challenges = [
     6 => [
         'title' => 'Day 6: Wait For It',
         'folder' => 'day6',
-        'description' => 'They received a map from seed to location trough a bunch of nodes, we need to help them find what they need trough a maze of matrices.',
+        'description' => 'It\'s a waiting game, but how long do we have to wait until we can release the pressure?',
+    ],
+    7 => [
+        'title' => 'Day 7: Camel Cards',
+        'folder' => 'day7',
+        'description' => 'From one game to another, we need to find the best camel card to win the game.',
     ],
 ];
