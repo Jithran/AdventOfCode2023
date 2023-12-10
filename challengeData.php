@@ -41,4 +41,9 @@ $challenges = [
         'folder' => 'day7',
         'description' => 'From one game to another, we need to find the best camel card to win the game.',
     ],
+    8 => [
+        'title' => 'Day 8: Haunted Wasteland',
+        'folder' => 'day8',
+        'description' => 'From a game to a wasteland, we need to find the shortest path to escape the wasteland.',
+    ],
 ];
