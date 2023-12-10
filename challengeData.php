@@ -46,4 +46,9 @@ $challenges = [
         'folder' => 'day8',
         'description' => 'From a game to a wasteland, we need to find the shortest path to escape the wasteland.',
     ],
+    9 => [
+        'title' => 'Day 9: Mirage Maintenance',
+        'folder' => 'day9',
+        'description' => '...',
+    ],
 ];
