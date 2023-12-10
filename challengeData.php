@@ -49,6 +49,11 @@ $challenges = [
     9 => [
         'title' => 'Day 9: Mirage Maintenance',
         'folder' => 'day9',
-        'description' => '...',
+        'description' => 'Somehow we need to find a way for feature travelers to find an oasis in the desert.',
+    ],
+    10 => [
+        'title' => 'Day 10: Pipe Maze',
+        'folder' => 'day10',
+        'description' => 'Someone or something is trying to escape trough a maze of pipes, we need to find our way trough the maze.',
     ],
 ];
